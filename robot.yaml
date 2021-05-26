@@ -1,0 +1,86 @@
+tasks:
+  ultimas-ayudas:
+    command:
+      - python
+      - -m
+      - robot
+      - --report
+      - NONE
+      - --outputdir
+      - output
+      - --logtitle
+      - Task log
+      - ultimas-ayudas.robot
+  historico-ayudas:
+    command:
+      - python
+      - -m
+      - robot
+      - --report
+      - NONE
+      - --outputdir
+      - output
+      - --logtitle
+      - Task log
+      - historico-ayudas.robot
+  subvenciones:
+    command:
+      - python
+      - -m
+      - robot
+      - --report
+      - NONE
+      - --outputdir
+      - output
+      - --logtitle
+      - Task log
+      - subvenciones.robot
+  carga_excel:
+    command:
+      - python
+      - -m
+      - robot
+      - --report
+      - NONE
+      - --outputdir
+      - output
+      - --logtitle
+      - Task log
+      - carga_excel.robot
+      
+  enrich-ayudas:
+    command:
+      - python
+      - -m
+      - robot
+      - --report
+      - NONE
+      - --outputdir
+      - output
+      - --logtitle
+      - Task log
+      - enrich-ayudas.robot
+
+  enrich-ayudas-bdns:
+    command:
+      - python
+      - -m
+      - robot
+      - --report
+      - NONE
+      - --outputdir
+      - output
+      - --logtitle
+      - Task log
+      - enrich-ayudas-bdns.robot
+      
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+  - resources
+  - libraries
+ignoreFiles:
+  - .gitignore
