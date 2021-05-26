@@ -23,9 +23,9 @@ These robots use:
     - RPA.HTTP
     - RPA.JSON
     
-There are also a *couple of resource files*: common.robot and keywords.robot
+There are also a **couple of resource files**: common.robot and keywords.robot
    
-It also includes *two very simple python libraries* to obtain the number of pages to parse in the website and to rename the last file in a folder.
+It also includes **two very simple python libraries** to obtain the number of pages to parse in the website and to rename the last file in a folder.
 
 Thanks ROBOCORP for all the good work around your technology and platform
 
