@@ -12,12 +12,12 @@ Suite Teardown    Teardown
 
 *** Variables ***
 ${SPACEX_API_BASE_URL}=    https://api.airtable.com/v0
-${SPACEX_API_LATEST_LAUNCHES}=    /applOCbcjmwc2D9IK/Ayudas%20BDNS
-${INSERT_ROW_IPYME}=              /applOCbcjmwc2D9IK/iPyme
+${SPACEX_API_LATEST_LAUNCHES}=    /xxxxx/Ayudas%20BDNS
+${INSERT_ROW_IPYME}=              /xxxxx/iPyme
 
 *** Keywords ***
 Setup
-    &{headers}=    Create Dictionary    Authorization=Bearer keyvdjd4TcqMJEnpl
+    &{headers}=    Create Dictionary    Authorization=Bearer xxxxx
     Create Session    airtable    ${SPACEX_API_BASE_URL}    verify=True  headers=&{headers}
     ${response}=    Get Request    airtable    ${SPACEX_API_LATEST_LAUNCHES}    headers=&{headers}
     #${resp}=    Get Request    alias=airtable    uri=${SPACEX_API_LATEST_LAUNCHES}      headers=${headers}
