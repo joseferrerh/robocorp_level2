@@ -8,7 +8,7 @@ Resource        common.robot
 *** Variables ***
 ${EXCEL_FILE_URL}=  https://github.com/robocorp/example-activities/raw/master/web-store-order-processor/devdata/Data.xlsx
 ${API_BASE_URL}=           https://api.airtable.com/v0
-${API_URL_BDNS}=           /appTLF4I1K4ZhQNX1/BDNS
+${API_URL_BDNS}=           /xxxxx/BDNS
 
 
 *** Tasks ***
