@@ -8,9 +8,9 @@ Library         Paginas
 
 *** Variables ***
 ${API_BASE_URL}=           https://api.airtable.com/v0
-${API_URL_BDNS}=           /appTLF4I1K4ZhQNX1/BDNS
-${API_URL_DOCS}=           /appTLF4I1K4ZhQNX1/Documentos
-${API_URL_IPYME}=          /appTLF4I1K4ZhQNX1/iPyme
+${API_URL_BDNS}=           /xxxxxx/BDNS
+${API_URL_DOCS}=           /xxxxxx/Documentos
+${API_URL_IPYME}=          /xxxxxx/iPyme
 
 *** Keywords ***
 Recorrer ayudas
