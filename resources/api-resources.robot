@@ -7,7 +7,7 @@ Library         String
 
 *** Keywords ***
 Crear Sesion
-    &{headers}=    Create Dictionary    Authorization=Bearer keyvdjd4TcqMJEnpl
+    &{headers}=    Create Dictionary    Authorization=Bearer xxxxx
     Create Session    airtable    ${API_BASE_URL}    verify=True  headers=&{headers}
     #${response}=    Get Request    airtable    ${SPACEX_API_LATEST_LAUNCHES}    headers=&{headers}
     #${resp}=    Get Request    alias=airtable    uri=${SPACEX_API_LATEST_LAUNCHES}      headers=${headers}
@@ -16,7 +16,7 @@ Crear Sesion
 Insert Row
     # [Arguments]     ${row}
     &{headers}=    Create Dictionary
-    ...                 Authorization=Bearer=key8gp8qHqfYK6Lgk
+    ...                 Authorization=Bearer=xxxxxx
     ...                 Content-Type=application/json
     
     ${datos}=    Convert String to JSON     {"records":[{"fields":{"Titulo": "Prueba insercion","Fecha Limite": "2021-12-23"}}]}
