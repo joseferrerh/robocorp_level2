@@ -7,8 +7,8 @@ Library         String
 
 *** Variables ***
 ${SPACEX_API_BASE_URL}=    https://api.airtable.com/v0
-${SPACEX_API_LATEST_LAUNCHES}=    /applOCbcjmwc2D9IK/Ayudas%20BDNS
-${INSERT_ROW_IPYME}=              /applOCbcjmwc2D9IK/iPyme
+${SPACEX_API_LATEST_LAUNCHES}=    /xxxxx/Ayudas%20BDNS
+${INSERT_ROW_IPYME}=              /xxxxx/iPyme
 
 *** Keywords ***
 Recorrer ayudas
